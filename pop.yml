@@ -35,6 +35,7 @@
           - jq
           - mtr
           - mysql-workbench
+          - telegram-desktop
      
      #Add repositorio e instalando chromium     
     - block:
