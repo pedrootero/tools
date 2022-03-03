@@ -1,0 +1,11 @@
+- name: Preparing Workstation
+  hosts: localhost
+  connection: local
+  tasks:  
+  
+  - name: install discord
+    snap:
+      name: discord
+      state: present
+    become: yes
+    become_user: root

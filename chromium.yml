@@ -6,7 +6,7 @@
 
   - name: add repo chromium
     apt_repository:
-      repo: 'ppa:chromium-daily/stable'
+      repo: 'ppa:xtradeb/apps'
       state: present
       update_cache: yes
     become: yes
